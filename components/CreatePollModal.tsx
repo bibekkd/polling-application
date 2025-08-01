@@ -72,7 +72,7 @@ export default function CreatePollModal({ onClose, onCreatePoll, canCreate }: Cr
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
               placeholder="Enter your question here..."
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+              className="w-full px-3 py-2 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
               rows={3}
               required
             />
@@ -94,7 +94,7 @@ export default function CreatePollModal({ onClose, onCreatePoll, canCreate }: Cr
                     value={option}
                     onChange={(e) => updateOption(index, e.target.value)}
                     placeholder={`Option ${index + 1}`}
-                    className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    className="flex-1 px-3 py-2 text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     required
                   />
                   {options.length > 2 && (
@@ -128,7 +128,7 @@ export default function CreatePollModal({ onClose, onCreatePoll, canCreate }: Cr
               id="timeLimit"
               value={timeLimit}
               onChange={(e) => setTimeLimit(Number(e.target.value))}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="w-full text-black px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             >
               <option value={30}>30 seconds</option>
               <option value={60}>60 seconds</option>
@@ -150,7 +150,7 @@ export default function CreatePollModal({ onClose, onCreatePoll, canCreate }: Cr
             <button
               type="submit"
               disabled={!isValid || !canCreate}
-              className="flex-1 px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              className="flex-1 px-4 py-2 text-white bg-[#4F0DCE] rounded-md hover:bg-[#7765DA] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               Create Poll
             </button>
