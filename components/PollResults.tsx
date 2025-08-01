@@ -1,6 +1,6 @@
 'use client';
 
-import { Poll } from '@/types';
+import { Poll } from '../types';
 import { BarChart3, Users } from 'lucide-react';
 
 interface PollResultsProps {

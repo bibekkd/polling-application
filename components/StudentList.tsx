@@ -1,6 +1,6 @@
 'use client';
 
-import { Student, Poll } from '@/types';
+import { Student, Poll } from '../types';
 import { Trash2, CheckCircle, Clock } from 'lucide-react';
 
 interface StudentListProps {

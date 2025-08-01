@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useSocket } from '@/hooks/useSocket';
-import { Poll, Student, ChatMessage } from '@/types';
+import { useSocket } from '../hooks/useSocket';
+import { Poll, Student, ChatMessage } from '../types';
 import { ArrowLeft, Plus, Users, MessageCircle, BarChart3 } from 'lucide-react';
 import CreatePollModal from './CreatePollModal';
 import PollResults from './PollResults';

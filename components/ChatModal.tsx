@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { ChatMessage, UserType } from '@/types';
+import { ChatMessage, UserType } from '../types';
 import { X, Send } from 'lucide-react';
 
 interface ChatModalProps {

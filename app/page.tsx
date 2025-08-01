@@ -1,10 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import { UserType } from '@/types';
-import TeacherDashboard from '@/components/TeacherDashboard';
-import StudentDashboard from '@/components/StudentDashboard';
-import RoleSelection from '@/components/RoleSelection';
+import { UserType } from '../types';
+import TeacherDashboard from '../components/TeacherDashboard';
+import StudentDashboard from '../components/StudentDashboard';
+import RoleSelection from '../components/RoleSelection';
 
 export default function Home() {
   const [userType, setUserType] = useState<UserType | null>(null);

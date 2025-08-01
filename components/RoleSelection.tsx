@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { UserType } from '@/types';
+import { UserType } from '../types';
 import { Sparkles } from 'lucide-react';
 
 interface RoleSelectionProps {
@@ -106,3 +106,14 @@ export default function RoleSelection({ onRoleSelect }: RoleSelectionProps) {
     </div>
   );
 } 
+
+
+
+
+
+
+
+
+
+
+
